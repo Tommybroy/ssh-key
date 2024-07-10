@@ -1,0 +1,1 @@
+ls -ltp --ignore=.* --ignore=..* | tr '\n' ', ' | sed 's/, $/\n/'
